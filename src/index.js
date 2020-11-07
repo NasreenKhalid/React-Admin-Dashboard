@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// import {Provider} from 'react-redux'
+// import { createStore, applyMiddleware, combineReducers } from 'redux';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// const store = createStore (applyMiddleware());
+
 ReactDOM.render(
   <React.StrictMode>
+   
     <App />
+ 
+
   </React.StrictMode>,
   document.getElementById('root')
 );
